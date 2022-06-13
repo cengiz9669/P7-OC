@@ -10,7 +10,7 @@ Cette application Python permet d'afficher les meilleurs investissements parmi u
 
 ```bash
 $ git clone https://github.com/cengiz9669/OC-P7.git
-$ cd OC-P7-BULU
+$ cd OC-P7-def
 $ python3 -m venv env (Sous Windows => python -m venv env)
 $ source env/bin/activate (Sous Windows => env\Scripts\activate)
 $ pip install -r requirements.txt
