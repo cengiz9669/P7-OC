@@ -96,7 +96,7 @@ def knapsack_dynamique_dixieme(max_cost, actions):
 
     print('Résultat optimized :')
     print(f"La combinaison optimale est {[action[0] for action in actions_selection]}")
-    print(f"Le profit maximum est de {round(matrice[-1][-1]/10,2)}€ pour un investissement de {(total_cost)}€")
+    print(f"Le profit maximum est de {round(matrice[-1][-1]/10,2)}€ pour un investissement de {round(total_cost)}€")
 
     return matrice[-1][-1], actions_selection
 
